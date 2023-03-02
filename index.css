@@ -1,0 +1,26 @@
+h1 {
+    color: blue;
+}
+
+.container {
+    text-align: center;
+}
+
+#divider {
+    height: 16px;
+
+}
+
+#todo-list {
+    border: solid teal 2px;
+    margin-top: 16px;
+}
+
+#main {
+    justify-content: center;
+}
+
+.task-content {
+    width: calc(100% - 100px);
+    display: inline-block;
+}
