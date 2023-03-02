@@ -100,9 +100,9 @@ $(document).ready(function () {
     $(document).on('change', '.task-completed', function () {
         var id = $(this).parent().attr('id');
         if ($(this).checked) {
-            markTaskActive(id);
-        } else {
             markTaskComplete(id);
+        } else {
+            markTaskActive(id);
         }
     });
 
